@@ -1,0 +1,233 @@
+body {
+    margin: 0 0;
+  }
+  
+  h1, h2 {
+    color: white;
+    margin: 0;
+    font-family: 'DynaPuff', sans-serif;
+    font-size: 40px;
+  }
+  
+  h2 {
+    color: #04B404;
+    font-size: 50px;
+  }
+  
+  
+  a {
+    color: white;
+    font-family: 'Sedgwick Ave Display', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: space-between;
+  }
+  
+  a:hover {
+  color: black;  
+  }
+  
+  nav {
+    height: 80px;
+    background-color: #04B404;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .divAncoras {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+  }
+  
+  form {
+    border: 1px solid whitesmoke;
+    border-radius: 0.3em;
+    padding: 0.3em;
+  }
+  
+  form input, form button {
+    font-size: 1.2em ;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+  }
+  
+  form button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+  }
+  
+  form button:hover {
+    background: whitesmoke;
+    color: #04B404;
+  }
+  
+  header {
+    background-image: url("https://www.cavhortifruti.com.br/wp-content/uploads/2017/05/banner-1-1200x480.jpg");
+    height: 500px;
+    background-size: cover;
+  }
+  
+  #Ofertas {
+     height: 400px;
+     padding: 100px;
+      }
+  
+  #Frutas {
+    height: 400px;
+    padding: 100px;  
+    
+  }
+  
+  #Legumes {
+    height: 400px;
+    padding: 100px;  
+    }
+  
+  #Verduras {
+  
+    height: 400px;
+    padding: 100px;
+    
+  }
+  
+  #Contato h4 {
+    height: 500px;
+    width: 100%;
+    
+    
+  }
+  
+  .caixaPrincipal {
+    display: flex;
+    justify-content: center;
+      }
+  
+  .caixaPrincipal div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 450px;
+    }
+  
+  .caixaPrincipal div:hover {
+   border: 3px solid black;
+    }
+  
+  .caixaPrincipal div img {
+    width: 115px;
+  
+    }
+  
+  p {
+    font-size: 19px;
+    font-family: 'Sedgwick Ave Display', sans-serif;
+  }
+  
+  h3 {
+    font-family: 'DynaPuff', sans-serif;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  
+  h4 {
+     background-image: url("./2021-03-23.jpg");
+     height: 600px;
+     width:100%;
+     background-size: cover;
+  }
+  
+  
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    background:#04B404;
+    border-radius: 5px;
+  }
+  
+  .container h2 {
+    font-family: 'Sedgwick Ave Display', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    
+  }
+  
+  .container .search {
+    background: #04B404;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 1px 5px 3px rgb(0, 0,0, 0.12);
+    }
+  
+  .search.active input{
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .search input {
+    
+    height: 35px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 40px 0 20px;
+    font-size: 16px;
+    box-shadow: 0px 1px 5px rgb(0, 0,0, 0.1);
+  }
+  
+  .search .list {
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y:auto;
+  }
+  .search.active .list{
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .list li {
+    list-style: none;
+    padding: 8px 12px;
+    display: none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+  }
+  
+  .search.active .list li{
+    display: block;
+  }
+  
+  .list li:hover {
+    background: #efefef;
+  }
+  
+  .search .icon {
+    position: absolute;
+    right: 0px;
+    top:0px;
+    height: 45px;
+    width: 45px;
+    align-items: center;
+    line-height: 45px;
+    font-size: 20px;
+    color:#00FF40;
+    cursor: pointer;
+  }
